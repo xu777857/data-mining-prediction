@@ -37,11 +37,16 @@ python predict_lifespan_rf.py
 
 # 文件说明
 
-Updated Quality of Life Data.csv 是原始数据文件。
 
-predict_lifespan_rf.py 和 predict_lifespan.py是使用随机森林算法和神经网络的预测代码。
+data/raw/Updated Quality of Life Data.csv   原始数据文件
 
-总体项目代码.py 是包含数据处理和初步探索的整合代码。
+src/predict_lifespan_rf.py                  随机森林预测脚本
+
+src/predict_lifespan.py                     神经网络预测脚本
+
+src/总体项目代码.py                         数据处理与初步探索整合代码
+
+notebooks/                                  探索性分析笔记本（本项目中分析已整合至脚本，目录留空）
 
 作者
 
