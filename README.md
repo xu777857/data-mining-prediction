@@ -12,7 +12,7 @@
 
 # 如何运行代码
 
-1. 安装Python库
+1. 安装Python库/直接运行pip install -r requirements.txt
 你的电脑需要先安装pandas、scikit-learn、matplotlib这三个库。
 可以在电脑的终端或命令行输入：
 pip install pandas scikit-learn matplotlib
