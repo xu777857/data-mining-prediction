@@ -13,14 +13,17 @@
 # 如何运行代码
 
 1. 安装Python库/直接运行pip install -r requirements.txt
-你的电脑需要先安装pandas、scikit-learn、matplotlib这三个库。
-可以在电脑的终端或命令行输入：
-pip install pandas scikit-learn matplotlib
 
-2. 下载代码和数据
+你的电脑需要先安装numpy、pandas、matplotlib、seaborn、scikit-learn、joblib这几个库。
+
+可以在电脑的终端或命令行输入：
+
+pip install pandas scikit-learn matplotlib seaborn scikit-learn joblib
+
+3. 下载代码和数据
 点击本页面绿色的Code按钮，选择Download ZIP，解压到你的电脑。
 
-3. 运行预测脚本
+4. 运行预测脚本
 在解压后的文件夹里，打开终端或命令行，输入：
 python predict_lifespan_rf.py
 等待片刻，就会输出模型的预测准确率结果。
